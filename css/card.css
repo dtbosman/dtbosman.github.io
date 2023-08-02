@@ -1,0 +1,144 @@
+header{
+	padding: 0.2em;
+	padding-left: 2em;
+	background-color: white;
+}
+
+footer{
+	color: white;
+	background-color: black;
+	padding: 2em;
+	margin-top: auto;
+}
+
+nav{
+	margin: 2em;
+}
+
+nav ul{
+	padding-left: 0em;
+}
+
+body {
+	font: 1em Arial, sans-serif;
+	margin: 0em;
+	padding: 0em;
+	background-color: #eee;
+}
+
+main{
+	margin: 2em;
+}
+
+section {
+	max-width: auto;
+	background-color: #fff;
+	border-radius: 0.5em;
+}
+
+h1,h2,h3,h4 {
+	font-family: Georgia, serif;
+}
+
+h2 {
+	margin-top: 0em;
+	color: green;
+}
+
+h3 {
+	margin-top: 0em;
+}
+
+h4 {
+	margin-top: 0em;
+}
+
+section.tile {
+	padding: 1em;
+}
+
+.current{
+	font-weight: bold;
+	color: white;
+	padding: 0.5em;
+	border-radius: 0.3em;
+	background-color: green;
+}
+
+.marriage,.children{
+	font-style: italic
+}
+
+.children{
+	margin-top: 2em;
+}
+
+dt{
+	font-weight: bold;
+}
+
+dd{
+	margin-bottom: 0.5em;
+}
+
+ul {
+    padding: 0em;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 0.5em;
+}
+
+nav ul li {
+    margin-bottom: 0.5em;
+	display: block;
+	list-style-type: none;
+	padding: 1em;
+	background-color: white;
+	border-radius: 0.5em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: green;
+}
+
+.partners {
+	border-left: 0.2em solid green;
+	padding-left: 0.5em;
+}
+
+#update{
+	font-style:italic;
+}
+
+#summary{
+    margin-bottom: 2em;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  max-width: 1400px;
+  grid-auto-rows: max-content;
+  grid-gap: 2em;
+  min-height: 70vh;
+  margin: auto;
+}
+
+@media print {
+	nav ul li {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	nav ul li {
+		display: inline;
+	}
+}
