@@ -123,8 +123,8 @@ a:hover {
 
 .wrapper{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  max-width: 1400px;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  max-width: 2000px;
   grid-auto-rows: max-content;
   grid-gap: 2em;
   min-height: 70vh;
@@ -137,7 +137,7 @@ a:hover {
 	}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
 	nav ul li {
 		display: inline;
 	}
