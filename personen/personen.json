@@ -13,7 +13,7 @@
             "father" : "",
             "mother" : "",
             "partners" : ["aaab"],
-            "children" : []
+            "children" : [],
             "sources":
             [
                 {
@@ -34,7 +34,7 @@
             "father" : "",
             "mother" : "",
             "partners" : ["aaaa"],
-            "children" : []
+            "children" : [],
             "sources":
             [
                 {
