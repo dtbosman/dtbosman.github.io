@@ -10,8 +10,7 @@
             "placeOfBirth": "Beveren-Waas",
             "dateOfDeath" : "1987-02-08",
             "placeOfDeath": "Beveren-Waas",
-            "father" : "aaac",
-            "mother" : "aaad",
+            "parents" : 2,
             "relations" : [1],
             "sources":
             [
@@ -30,8 +29,7 @@
             "placeOfBirth": "Beveren-Waas",
             "dateOfDeath" : "1969-06-04",
             "placeOfDeath": "Beveren-Waas",
-            "father" : "",
-            "mother" : "",
+            "parents" : 0,
             "relations" : [1],
             "sources":
             [
@@ -50,8 +48,7 @@
             "placeOfBirth": "Beveren-Waas",
             "dateOfDeath" : "1948",
             "placeOfDeath": "Beveren-Waas",
-            "father" : "",
-            "mother" : "",
+            "parents" : 0,
             "relations" : [2],
             "sources": []
         },
@@ -64,8 +61,7 @@
             "placeOfBirth": "Beveren-Waas",
             "dateOfDeath" : "",
             "placeOfDeath": "Beveren-Waas",
-            "father" : "",
-            "mother" : "",
+            "parents" : 0,
             "relations" : [2],
             "sources": []
         }
